@@ -31,4 +31,14 @@
   .navbar ul li a:hover {
     color: #ff6600;
   }
+  .logo{
+    width: 6.5em;
+    margin-right: 0;
+    height: 6em;
+    
+  }
+  .navbar div {
+display: flex;
+gap:1em ;
+  }
   

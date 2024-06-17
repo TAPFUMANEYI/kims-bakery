@@ -1,7 +1,8 @@
 // src/components/Home.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Home.css';
+import './Homepage.css';
+
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
         <p>Delicious treats baked fresh daily.</p>
       </div>
       <div className="image-container">
-        <img src="src/images/cake-3744058_1280.jpg" alt="Bakery" />
+       
       </div>
     </div>
   );

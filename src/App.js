@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './src/components/HomePage';
-import AboutPage from './src/components/AboutPage';
-import MenuPage from './src/components/MenuPage';
-import Navigation from './src/components/Navigation';
+import HomePage from './Components/HomePage';
+import AboutPage from './Components/AboutPage';
+import MenuPage from './Components/MenuPage';
+import Navigation from './Components/Navigation';
 import './App.css';
 
 const App = () => {
@@ -21,15 +21,11 @@ const App = () => {
   );
 };
 
-function App() {
-  return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={Home} />
-      </Switch>
-    </Router>
-  );
-}
+
+  
+    
+
+
 
 
 export default App;

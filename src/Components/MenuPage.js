@@ -1,4 +1,5 @@
 import React from 'react';
+import  from '.strawberrycake-3411553_1280.jpg'
 
 const MenuPage = () => {
   return (
@@ -7,23 +8,36 @@ const MenuPage = () => {
       <ul>
         <li>
           <img src="src/images/strawberrycake-3411553_1280.jpg" alt="Pastry 1" />
-          <p>Pastry 1</p>
+          <p>FLACKY PASTRY</p>
         </li>
         <li>
           <img src="src/images/dessert-678071_1280.jpg" alt="Pastry 2" />
-          <p>Pastry 2</p>
+          <p>SWISSROLL</p>
         </li>
         <li>
           <img src="src/images/cream-puff-1694333_1280.jpg" alt="Pastry 3" />
-          <p>Pastry 3</p>
+          <p>CREAM PUFF</p>
         </li>
         <li>
           <img src="src/images/cakes-3032323_1280.jpg" alt="Pastry 4" />
-          <p>Pastry 4</p>
+          <p>CAU`RE</p>
         </li>
         <li>
           <img src="src/images/bread-8814788_1280.jpg" alt="Pastry 5" />
-          <p>Pastry 5</p>
+          <p>BREAD</p>
+        </li>
+        <li>
+          <img src="src/images/bread-1284438_1920.jpg" alt="Pastry 5" />
+          <p>CROISSANT</p>
+        </li><li>
+          <img src="src/images/baked-goods-1846460_1920.jpg" alt="Pastry 5" />
+          <p>CAKE</p>
+        </li><li>
+          <img src="src/images/dessert-6898136_1280.jpg" alt="Pastry 5" />
+          <p>DOU`FU</p>
+        </li><li>
+          <img src="src/images/bread-8814788_1280.jpg" alt="Pastry 5" />
+          <p>BREAD</p>
         </li>
       </ul>
     </div>
