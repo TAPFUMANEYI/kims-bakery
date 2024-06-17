@@ -1,4 +1,5 @@
 import React from 'react';
+import './MenuPage.css';
 import FLACKYPASTRY from '../images/strawberrycake-3411553_1280.jpg';
 import SWISSROLL from '../images/dessert-678071_1280.jpg';
 import CREAMPUFF from '../images/cream-puff-1694333_1280.jpg';
@@ -11,15 +12,15 @@ import KIMO from '../images/bread-8814788_1280.jpg';
 import CHOUX from '../images/cake-3744058_1280.jpg';
 const MenuPage = () => {
   return (
-    <div>
+    <div >
       <h1>Our Menu</h1>
       <ul>
         <li>
-          <img src={FLACKYPASTRY} alt="Flaky Pastry" />
+          <img className='Pictures' src={FLACKYPASTRY} alt="Flaky Pastry" />
           <p>FLACKY PASTRY</p>
         </li>
         <li>
-          <img src={SWISSROLL} alt="SWISS ROLL" />
+          <img className='Food' src={SWISSROLL} alt="SWISS ROLL" />
           <p>SWISSROLL</p>
         </li>
         <li>
