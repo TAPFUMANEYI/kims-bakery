@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffcc99;
+    background-color: hwb(38 60% 0% / 0.705);
     padding: 1rem;
+    
   }
   
   .navbar h2 {
@@ -23,9 +24,10 @@
   }
   
   .navbar ul li a {
-    text-decoration: none;
+    text-transform: uppercase;
     color: #333;
     font-weight: bold;
+    font-style: inherit;
   }
   
   .navbar ul li a:hover {
@@ -34,7 +36,7 @@
   .logo{
     width: 6.5em;
     margin-right: 0;
-    height: 6em;
+    height: 3.9em;
     font:italic;
   }
   .navbar div {

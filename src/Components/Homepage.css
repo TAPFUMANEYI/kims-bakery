@@ -5,16 +5,20 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(../images/breads-1867459_1920.jpg);
+    /* background-image: url(../images/breads-1867459_1920.jpg);
     text-align: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:cover; */
+    background-image: url('../images/breads-1867459_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   .welcome-message {
     animation: fadeIn 2s ease-in-out;
-    background-color: rgba(6, 6, 6, 0.489);
-    font-family:italic ;
+    background-color:rgba(255, 255, 255, 0.751);
+    font-family: serif;
   }
   
   .image-container img {

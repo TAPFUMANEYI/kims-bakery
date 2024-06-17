@@ -1,14 +1,14 @@
 import React from 'react';
 import FLACKYPASTRY from '../images/strawberrycake-3411553_1280.jpg';
-import SWISSROLL from '../images/dessert-678071_1280.jpg;'
+import SWISSROLL from '../images/dessert-678071_1280.jpg';
 import CREAMPUFF from '../images/cream-puff-1694333_1280.jpg';
-import CAURE from '../images/cakes-3032323_1280.jpg'
-import BREAD from '../images/bread-8814788_1280.jpg'
-import CROISSANT from '../images/bread-1284438_1920.jpg'
-import CAKE from '../images/dessert-6898136_1280.jpg'
-import DANISHPASRY from '../images/danish-pastry-892909_1280.jpg'
-import KIMO from '../images/bread-8814788_1280.jpg'
-import CHOUX from '../images/cake-3744058_1280.jpg'
+import CAURE from '../images/cakes-3032323_1280.jpg';
+import BREAD from '../images/bread-8814788_1280.jpg';
+import CROISSANT from '../images/bread-1284438_1920.jpg';
+import CAKE from '../images/dessert-6898136_1280.jpg';
+import DANISHPASRY from '../images/danish-pastry-892909_1280.jpg';
+import KIMO from '../images/bread-8814788_1280.jpg';
+import CHOUX from '../images/cake-3744058_1280.jpg';
 const MenuPage = () => {
   return (
     <div>
@@ -19,7 +19,7 @@ const MenuPage = () => {
           <p>FLACKY PASTRY</p>
         </li>
         <li>
-          <img src={SWISSROLL} alt="SWISSROLL" />
+          <img src={SWISSROLL} alt="SWISS ROLL" />
           <p>SWISSROLL</p>
         </li>
         <li>

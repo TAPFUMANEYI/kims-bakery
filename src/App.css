@@ -1,10 +1,21 @@
 body {
   font:italic;
-  background-color: #fff;
   color: #333;
   margin: 0;
   padding: 0;
+  background-image: url('images/breads-1867459_1920.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  /* // <uniquifier>: Use a unique and descriptive class name */
+
+/* .playwrite-co-<uniquifier> { */
+  font-family: "body", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
+
 
 div {
   padding: 1rem;
