@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial, sans-serif';
+  font:italic;
   background-color: #fff;
   color: #333;
   margin: 0;
@@ -11,7 +11,7 @@ div {
 }
 
 h1 {
-  color: #ff6600;
+  color: #94613e83;
 }
 
 img {

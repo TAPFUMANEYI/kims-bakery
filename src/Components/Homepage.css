@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(../images/cake-3744058_1280.jpg);
+    background-image: url(../images/breads-1867459_1920.jpg);
     text-align: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -14,7 +14,7 @@
   .welcome-message {
     animation: fadeIn 2s ease-in-out;
     background-color: rgba(6, 6, 6, 0.489);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:italic ;
   }
   
   .image-container img {

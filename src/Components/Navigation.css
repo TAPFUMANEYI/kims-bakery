@@ -35,7 +35,7 @@
     width: 6.5em;
     margin-right: 0;
     height: 6em;
-    
+    font:italic;
   }
   .navbar div {
 display: flex;
