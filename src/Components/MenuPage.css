@@ -1,16 +1,102 @@
-.Picture {
-    width: 190px;
-    height: 254px;
+background-body{
+  background-repeat: no-repeat;
+    background-image: url('../images/cake-1850011_1920.jpg');
+    background-size: cover;
+}
+.Pictures {
+    width: 500px;
+    height: 400px;
     border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow: 20px 20px 60px #bebebe,
-                  -20px -20px 60px #ffffff;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px #8d36116d,
+                  -20px -20px 60px #ffffff10;
+                  
    }
    .Food {
-    width: 190px;
-    height: 254px;
+    width: 500px;
+    height: 400px;
     border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow: 20px 20px 60px #bebebe,
-                  -20px -20px 60px #ffffff;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px hwb(18 47% 35% / 0.427),
+                  -20px -20px 60px #ffffff10;
    }
+  .latte {
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px #8d36116d,
+                  -20px -20px 60px #ffffff10;
+  }
+  .ice {
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px #8d36116d,
+                  -20px -20px 60px #ffffff10;
+  }
+  .cold {
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px #8d36116d,
+                  -20px -20px 60px #ffffff10;
+  }
+  .water {
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px #8d36116d,
+                  -20px -20px 60px #ffffff10;
+  }
+  .drops {
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px #8d36116d,
+                  -20px -20px 60px #ffffff10;
+  }
+  .wet {
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px #8d36116d,
+                  -20px -20px 60px #ffffff10;
+  }
+  .hot {
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px #8d36116d,
+                  -20px -20px 60px #ffffff10;
+  }
+  .heat {
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    background: #e0e0e010;
+    box-shadow: 20px 20px 60px #8d36116d,
+                  -20px -20px 60px #ffffff10;
+  }
+  .menu {
+padding:1em 0 0 ;
+background-image:url('../images/cake-1850011_1920.jpg');
+color:white;
+  }
+  .menu ul{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content:space-between;
+    gap:2em;
+    background-color:rgba(0, 0, 0, 0.484);
+    padding: 1.5em 3.5em ;
+  }
+  .menu h1{
+    color:white;
+  }

@@ -3,10 +3,8 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
-  background-image: url('images/breads-1867459_1920.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  
+    /* background-position: center; */
   /* // <uniquifier>: Use a unique and descriptive class name */
 
 /* .playwrite-co-<uniquifier> { */
@@ -17,9 +15,7 @@ body {
 }
 
 
-div {
-  padding: 1rem;
-}
+
 
 h1 {
   color: #94613e83;

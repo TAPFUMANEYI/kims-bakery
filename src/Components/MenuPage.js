@@ -12,7 +12,7 @@ import KIMO from '../images/bread-8814788_1280.jpg';
 import CHOUX from '../images/cake-3744058_1280.jpg';
 const MenuPage = () => {
   return (
-    <div >
+    <div className='menu' >
       <h1>Our Menu</h1>
       <ul>
         <li>
@@ -24,34 +24,34 @@ const MenuPage = () => {
           <p>SWISSROLL</p>
         </li>
         <li>
-          <img src={CREAMPUFF} alt="CREAMPUFF" />
+          <img className='latte' src={CREAMPUFF} alt="CREAMPUFF" />
           <p>CREAM PUFF</p>
         </li>
         <li>
-          <img src={CAURE} alt="CAU`RE" />
+          <img className='ice' src={CAURE} alt="CAU`RE" />
           <p>CAU`RE</p>
         </li>
         <li>
-          <img src={BREAD} alt="BREAD" />
+          <img className='cold' src={BREAD} alt="BREAD" />
           <p>BREAD</p>
         </li>
         <li>
-          <img src={CROISSANT} alt="CROISSANT" />
+          <img className='water' src={CROISSANT} alt="CROISSANT" />
           <p>CROISSANT</p>
         </li><li>
-          <img src={CAKE} alt="CAKE" />
+          <img className='drops' src={CAKE} alt="CAKE" />
           <p>CAKE</p>
         </li>
         <li>
-          <img src={DANISHPASRY} alt="DANISH PASTRY" />
+          <img className='wet' src={DANISHPASRY} alt="DANISH PASTRY" />
           <p>DANISHPASRY</p>
         </li>
         <li>
-          <img src={KIMO} alt="KIMO" />
+          <img  className='hot' src={KIMO} alt="KIMO" />
           <p>KIMO</p>
         </li>
         <li>
-          <img src={CHOUX} alt="CHOUX" />
+          <img className='heat' src={CHOUX} alt="CHOUX" />
           <p>CHOUX</p>
         </li>
       </ul>
