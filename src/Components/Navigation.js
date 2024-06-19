@@ -8,13 +8,13 @@ const Navigation = () => {
     <nav className="navbar">
     <div>
     <img className='logo' src={Logo} alt='logo'/>
-  
       <h2>Kim's Patisserie</h2>
       </div>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About Us</Link></li>
         <li><Link to="/menu">Menu</Link></li>
+        <li><Link to="/contact">Contact Us</Link></li>
       </ul>
     </nav>
     

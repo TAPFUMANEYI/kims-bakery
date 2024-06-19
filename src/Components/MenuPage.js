@@ -17,42 +17,82 @@ const MenuPage = () => {
       <ul>
         <li>
           <img className='Pictures' src={FLACKYPASTRY} alt="Flaky Pastry" />
-          <p>FLACKY PASTRY</p>
+          
+          <button class="btn">
+    <span class="btn-text-one">FLACKYPASTRY</span>
+    <span class="btn-text-two">$15</span>
+</button>
         </li>
         <li>
           <img className='Food' src={SWISSROLL} alt="SWISS ROLL" />
-          <p>SWISSROLL</p>
+         
+          <button class="btn">
+    <span class="btn-text-one">SWISSROLL</span>
+    <span class="btn-text-two">$20</span>
+</button>
         </li>
         <li>
           <img className='latte' src={CREAMPUFF} alt="CREAMPUFF" />
-          <p>CREAM PUFF</p>
+          
+          <button class="btn">
+    <span class="btn-text-one">CREAM PUFF</span>
+    <span class="btn-text-two">$15</span>
+</button>
         </li>
         <li>
           <img className='ice' src={CAURE} alt="CAU`RE" />
-          <p>CAU`RE</p>
+          
+          <button class="btn">
+    <span class="btn-text-one">CAU`RE</span>
+    <span class="btn-text-two">$25</span>
+</button>
         </li>
         <li>
           <img className='cold' src={BREAD} alt="BREAD" />
-          <p>BREAD</p>
+          
+          <button class="btn">
+    <span class="btn-text-one">BREAD</span>
+    <span class="btn-text-two">$10</span>
+</button>
         </li>
         <li>
           <img className='water' src={CROISSANT} alt="CROISSANT" />
-          <p>CROISSANT</p>
+          
+          <button class="btn">
+    <span class="btn-text-one">CROISSANT</span>
+    <span class="btn-text-two">$20</span>
+</button>
         </li><li>
           <img className='drops' src={CAKE} alt="CAKE" />
-          <p>CAKE</p>
+        
+          <button class="btn">
+    <span class="btn-text-one">CAKE</span>
+    <span class="btn-text-two">$12</span>
+</button>
         </li>
         <li>
           <img className='wet' src={DANISHPASRY} alt="DANISH PASTRY" />
-          <p>DANISHPASRY</p>
+         
+          <button class="btn">
+    <span class="btn-text-one">DANISHPASRY</span>
+    <span class="btn-text-two">$30</span>
+</button>
         </li>
         <li>
           <img  className='hot' src={KIMO} alt="KIMO" />
-          <p>KIMO</p>
+         
+          <button class="btn">
+    <span class="btn-text-one">KIMO</span>
+    <span class="btn-text-two">$40</span>
+</button>
         </li>
         <li>
           <img className='heat' src={CHOUX} alt="CHOUX" />
-          <p>CHOUX</p>
+          
+          <button class="btn">
+    <span class="btn-text-one">CHOUX</span>
+    <span class="btn-text-two">$20</span>
+</button>
         </li>
       </ul>
     </div>
