@@ -19,7 +19,6 @@ const ContactPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form data submitted:', formData);
-    // Here you can add functionality to send form data to a server or email service
     setFormData({
       name: '',
       email: '',

@@ -1,4 +1,3 @@
-// src/pages/AboutPage.js
 import React from 'react';
 import './AboutPage.css';
 import background from '../images/cereals-563796_1280.jpg';
