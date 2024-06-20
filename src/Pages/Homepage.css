@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+.home-page{
+    padding:0 8em;
+}
+
+.home-page .up {
+  width: 100%;
+  height: 75vh;
+  background: url('../images/croissants-4077817_1920\ \(1\).jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.home-page .up-text {
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.521);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right:60px ;
+  margin-bottom: 55px;
+}
+
+.home-page .up-text h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.home-page .up-text button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4b4b4b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-page .up-text button:hover {
+  background-color: rgb(255, 0, 157);
+}
+
+.home-page .down {
+    background-color: #fef8f8;
+    padding: 3rem 1rem;
+  }
+  
+  .home-page .down h2{
+    display: inline;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .home-page .dash {
+     display: inline-block;
+     width: 40%;
+     height: 1.5px;
+     background: #e4e4e4;
+     margin: 0 10px;
+   }
+  
+  .home-page .down-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  
+  .home-page .left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+  }
+  
+  .home-page .box {
+    background-color: #fce8e8;
+    height: 5em;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .home-page .box-title {
+    font-size: 20px;
+    font-weight: 750;
+    margin: 0;
+  }
+  
+  .home-page .order-now {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .home-page .contact-us {
+    background-color: #f0f0f0;
+  }
+  
+  .home-page .right-section {
+    flex: 2;
+  }
+  
+  .home-page .description {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 1.5rem;
+    letter-spacing: .07rem;
+  }
+  
+  .home-page .testimonial {
+    font-size: 20px;
+    line-height: 28px;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    padding-left: 20px;
+    border-left: 5px solid #d8d8d8;
+  }
+  
+  .home-page .testimonial span {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .home-page .find-out-more {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e67878;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-page .find-out-more:hover {
+    background-color: #ce1818;
+  }
